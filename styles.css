@@ -3,18 +3,24 @@
       font-size: 1.5em;
     }
 }
+@media only screen and (min-width:577px){
+  p.down{
+    font-size: 2em;
+  }
+}
 
 img.globe{
     width: 60px;
     z-index: 3; 
     display: inline-block;
 }
-h2 span{
-  color: rgb(38, 102, 156);
-  display: inline-block;
-}
+
 h1{
     display: inline-block;
+}
+h1 span{
+  color: rgb(38, 102, 156);
+  display: inline-block;
 }
 div.gradient{
   background: #007bff linear-gradient(180deg,#268fff,#007bff) repeat-x!important;
@@ -22,5 +28,4 @@ div.gradient{
 p.down{
   padding-top: 10px;
   padding-bottom: 6px;
-  padding-left: 15px;
 }
