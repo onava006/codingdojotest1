@@ -1,0 +1,21 @@
+img.globe{
+    width: 50px;
+    z-index: 3; 
+    display: inline-block;
+}
+h2 span{
+  color: rgb(38, 102, 156);
+  display: inline-block;
+}
+h2{
+    display: inline-block;
+}
+div.gradient{
+  background: #007bff linear-gradient(180deg,#268fff,#007bff) repeat-x!important;
+}
+p.down{
+  font-size: xx-large;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+}
